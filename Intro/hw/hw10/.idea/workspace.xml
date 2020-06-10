@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d80c756d-3867-4650-825a-a918f11df81b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../DataStructures/.idea/DataStructures.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../DataStructures/Homeworks/hw1/.idea/hw1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../DataStructures/Homeworks/hw1/hw1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../DataStructures/Homeworks/hw1/out/production/hw1/.idea/hw1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../DataStructures/Homeworks/hw1/out/production/hw1/hw1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../DataStructures/Homeworks/hw2/hw2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../DataStructures/Homeworks/hw3/hw3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../DataStructures/Homeworks/hw6/hw6.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../DataStructures/Labs/Lab3/Lab3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../DataStructures/Labs/Lab4/Lab4.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../DataStructures/Labs/lab2/lab2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw10.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw2/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw2/.idea/dictionaries/jjbiggins.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw2/.idea/hw2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw2/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw2/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw2/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw2/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw2/solution/hw2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw4/.idea/hw4.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw7/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw7/.idea/dictionaries/jjbiggins.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw7/.idea/hw7.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw7/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw7/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw7/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw7/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw7/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw8/.idea/hw8.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw9/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw9/.idea/hw9.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw9/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw9/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw9/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw9/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw9/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw9/hw9.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw1/hw1.py" beforeDir="false" afterPath="$PROJECT_DIR$/../hw1/hw1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw1/solution/hw1.py" beforeDir="false" afterPath="$PROJECT_DIR$/../hw1/solution/hw1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw2/hw2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw2/hw2.md" beforeDir="false" afterPath="$PROJECT_DIR$/../hw2/hw2.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw2/hw2.py" beforeDir="false" afterPath="$PROJECT_DIR$/../hw2/hw2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw3/hw3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw4/hw4.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw5/hw5.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw6/hw6.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw7/hw7.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw7/hw7sorts.py" beforeDir="false" afterPath="$PROJECT_DIR$/../hw7/hw7sorts.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw8/hw8.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw9/hw9.html" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectId" id="1d8zHysaQZSsvQ6bnYAS7h3YAXe" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.stylelint" value="true" />
+    <property name="node.js.path.for.package.stylelint" value="project" />
+    <property name="node.js.selected.package.stylelint" value="" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d80c756d-3867-4650-825a-a918f11df81b" name="Default Changelist" comment="" />
+      <created>1591821424458</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1591821424458</updated>
+      <workItem from="1591821425796" duration="333000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="561" y="286" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1591821754833">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="561" y="286" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1591821754833" />
+  </component>
+</project>

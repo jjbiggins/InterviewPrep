@@ -18,13 +18,13 @@ def tripCost(distance: object, vehSpeed: object, vehMPG: object,
              hotelCostPerNight: object) -> object:
 	vehTime = distance / vehSpeed
 	vehGallons = distance / vehMPG
-
+	
 	vehDays = vehTime / 8.0
-	vehNights = math.ceil(vehDays) - 1
+	vehNights = math.ceil (vehDays) - 1
 	hotelCost = vehNights * hotelCostPerNight
-
+	
 	totalCost = (gasCostPerGallon * vehGallons) + hotelCost
-
+	
 	return totalCost
 
 
@@ -56,46 +56,46 @@ def tripCost(distance: object, vehSpeed: object, vehMPG: object,
 def chooseVehicleForTrip(distance, veh1Name, veh1Speed, veh1MPG, veh2Name,
                          veh2Speed, veh2MPG, hotelCostPerNight,
                          gasCostPerGallon):
-	veh1Cost = tripCost(distance, veh1Speed, veh1MPG, gasCostPerGallon,
-		hotelCostPerNight)
-	veh2Cost = tripCost(distance, veh2Speed, veh2MPG, gasCostPerGallon,
-		hotelCostPerNight)
-
-	print(
-		"{} miles in vehicle '{}' will cost ${:.2f}.".format(distance, veh1Name,
-			veh1Cost))
-	print(
-		"{} miles in vehicle '{}' will cost ${:.2f}.".format(distance, veh2Name,
-			veh2Cost))
-
+	veh1Cost = tripCost (distance, veh1Speed, veh1MPG, gasCostPerGallon,
+	                     hotelCostPerNight)
+	veh2Cost = tripCost (distance, veh2Speed, veh2MPG, gasCostPerGallon,
+	                     hotelCostPerNight)
+	
+	print (
+			"{} miles in vehicle '{}' will cost ${:.2f}.".format (distance, veh1Name,
+			                                                      veh1Cost))
+	print (
+			"{} miles in vehicle '{}' will cost ${:.2f}.".format (distance, veh2Name,
+			                                                      veh2Cost))
+	
 	if veh1Cost < veh2Cost:
-		print("To save money, use '{}'".format(veh1Name))
+		print ("To save money, use '{}'".format (veh1Name))
 	elif veh2Cost < veh1Cost:
-		print("To save money, use '{}'".format(veh2Name))
+		print ("To save money, use '{}'".format (veh2Name))
 	else:
-		print("Trip cost is the same in both vehicles. Choose your favorite.")
+		print ("Trip cost is the same in both vehicles. Choose your favorite.")
 
 
 def testQ1():
-	print(tripCost(1.0, 1.0, 1.0, 1.0, 1.0))
-	print(tripCost(5.0, 1.0, 1.0, 1.0, 1.0))
-	print(tripCost(10.0, 1.0, 3.0, 5.0, 70.0))
-	print(tripCost(100.0, 10.0, 3.0, 5.0, 70.0))
-	print(tripCost(8.0, 1.0, 1.0, 1.50, 1000.0))
-	print(tripCost(16.0, 1.0, 1.0, 1.50, 1000.0))
-	print(tripCost(24.0, 1.0, 1.0, 1.50, 1000.0))
-	print(tripCost(96.0, 1.0, 1.0, 1.50, 1000.0))
+	print (tripCost (1.0, 1.0, 1.0, 1.0, 1.0))
+	print (tripCost (5.0, 1.0, 1.0, 1.0, 1.0))
+	print (tripCost (10.0, 1.0, 3.0, 5.0, 70.0))
+	print (tripCost (100.0, 10.0, 3.0, 5.0, 70.0))
+	print (tripCost (8.0, 1.0, 1.0, 1.50, 1000.0))
+	print (tripCost (16.0, 1.0, 1.0, 1.50, 1000.0))
+	print (tripCost (24.0, 1.0, 1.0, 1.50, 1000.0))
+	print (tripCost (96.0, 1.0, 1.0, 1.50, 1000.0))
 
 
 def testQ2():
-	chooseVehicleForTrip(100.0, 'V1', 10.0, 1.0, 'V2', 100.0, 10.0, 5.0, 1000.0)
-	chooseVehicleForTrip(100.0, 'V1', 10.0, 1.0, 'V2', 1.0, 10.0, 10.0, 0.01)
-	chooseVehicleForTrip(1231.5, 'V1', 10.0, 1.0, 'V2', 1.0, 10.0, 10.0, 50.0)
-	chooseVehicleForTrip(1231.5, 'V1', 33.0, 2.0, 'V2', 1.0, 10.0, 10.0, 50.0)
-	chooseVehicleForTrip(1231.5, 'V1', 33.0, 111.0, 'V2', 1.0, 10.0, 10.0, 50.0)
-	chooseVehicleForTrip(1231.5, 'V1', 33.0, 111.0, 'V2', 1.0, 10.0, 0.0, 50.0)
-	chooseVehicleForTrip(1231.5, 'V1', 33.0, 111.0, 'V2', 1.0, 10.0, 10.0, 0.0)
-	chooseVehicleForTrip(240.0, 'Slow', 20.0, 60.0, 'Fast', 40.0, 40.0, 10.0,
-		20.0)
-	chooseVehicleForTrip(1231.5, 'V1', 33.0, 111.0, 'V2', 1.0, 10.0, 0.0, 0.0)
-	chooseVehicleForTrip(24.0, 'V1', 3.0, 10.0, 'V2', 1.0, 10.0, 500.0, 5000.0)
+	chooseVehicleForTrip (100.0, 'V1', 10.0, 1.0, 'V2', 100.0, 10.0, 5.0, 1000.0)
+	chooseVehicleForTrip (100.0, 'V1', 10.0, 1.0, 'V2', 1.0, 10.0, 10.0, 0.01)
+	chooseVehicleForTrip (1231.5, 'V1', 10.0, 1.0, 'V2', 1.0, 10.0, 10.0, 50.0)
+	chooseVehicleForTrip (1231.5, 'V1', 33.0, 2.0, 'V2', 1.0, 10.0, 10.0, 50.0)
+	chooseVehicleForTrip (1231.5, 'V1', 33.0, 111.0, 'V2', 1.0, 10.0, 10.0, 50.0)
+	chooseVehicleForTrip (1231.5, 'V1', 33.0, 111.0, 'V2', 1.0, 10.0, 0.0, 50.0)
+	chooseVehicleForTrip (1231.5, 'V1', 33.0, 111.0, 'V2', 1.0, 10.0, 10.0, 0.0)
+	chooseVehicleForTrip (240.0, 'Slow', 20.0, 60.0, 'Fast', 40.0, 40.0, 10.0,
+	                      20.0)
+	chooseVehicleForTrip (1231.5, 'V1', 33.0, 111.0, 'V2', 1.0, 10.0, 0.0, 0.0)
+	chooseVehicleForTrip (24.0, 'V1', 3.0, 10.0, 'V2', 1.0, 10.0, 500.0, 5000.0)
