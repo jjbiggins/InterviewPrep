@@ -1,0 +1,94 @@
+<HTML>
+
+<pre>
+Review notes for CS1210 Exam 2, Spring 2017
+
+Exam date: Thursday, April 20, 6:30-8:00, C20 Pomerantz Center
+
+Exam is closed-book: no notes, no computers, no phones, no internet.
+ 
+Types of questions:
+
+0) Short answer: explain ideas or particular algorithms/structures
+   (object/classes, searching/sorting methods, graph representations),
+   questions about function/program running time growth and/or Big-O/asymptotic
+   complexity.
+
+1) Trace/hand-execute code to determine what it does in specific 
+   circumstances. (this includes both what the code might *print* and 
+   what it might *return* - these are two different notions that a
+   good number of people still sometimes misunderstand)
+ 
+2) Write code (typically in the form of a function/def) to match a 
+   given English specification.  A question of this form might be:
+   "Write a program that returns the minimum value from among three
+   input numbers."  
+
+3) Assess/analyze what a program/code does and give a concise English 
+   description. E.g. an answer might be 
+   "program1 determines and returns the minimum of the three given input 
+   numbers" is an appropriate answer.  
+
+   Note that such answers should try to be precise but concise overall 
+   descriptions of what a program does.  If your descriptions looks like 
+   "it takes the first number and compares it to the second, and then loops 
+   for a while, decrementing a counter and changing a variable, before 
+   finally ..., and then t returns a number" you're probably not on the 
+   right track.  I'm not looking for a description of the *process* the 
+   program goes through to get to an answer.  Instead, I want a description 
+   of what it computes, in terms of the given input.
+
+-----------------
+    
+MATERIAL COVERED (Chapters/Sections refer to "Think Python" textbook):
+
+All the material for Exam 1.
+
+Ch 11: Dictionaries
+
+Ch 12: Tuples - no big ideas here but you do need to be able to use tuples.
+
+Ch 15, 16, 17, 18: Classes and objects.  Chapter 17 most important.
+You need to understand the basics of classes, objects, methods, and inheritance.
+
+Ch 19 (second section): Basic list comprehensions
+
+Ch 21: Algorithm analysis
+
+You need to understand the basic ideas of assessing function/program
+running time and characterizing running times with Big-O/asymptotic notation.
+This includes:
+- best-case, worst-case, and average case running times 
+- the idea of counting basic steps in a function/program and then simplifying,
+  discarding small terms and constant factors to characters asymptotic growth rate
+  E.g. 2*n + 23 n*n + 2310 --> 23 n*n -> O(n*2)
+- the impact/meaning of basic growth rates.  If a program f(n) has O(n*n*n) running time, 
+  then (for large n) you expect that doubling the size of the input will result in approximately
+  an eight-fold increase in running time.
+- the log function and how it (often arises) in programs (loops that 
+  repeatedly halve or double a value)
+- exponential growth.  Programs that have exponential growth, e.g. O(2^n) running time, 
+  can be intractable, very slow for even modest sized inputs.  Often, one should 
+  look for alternative algorithms, approximate or heuristic ones if necessary.
+
+Topics not in textbook (but covered in lecture notes and lecture code):
+
+Binary search: an important technique that you need to understand 
+
+Sorting, including selection sort and insertion sort, and their running time bounds. You do not
+need to know the details of merge sort and quicksort.
+
+Graph representations:
+- representing graphs using adjacency lists 
+- you do not need to know the details of breadth first search for the exam
+
+Randomization and Monte Carlo simulation:
+- understand the coin-flipping and pi-finding examples covered in class and homework
+
+</pre>
+
+    Sample exam-style problems are <a href=exam2sample.pdf>here</a> and <a href=exam2sample2.pdf>here</a>. Solutions to some of the problems: <a href=exam2sample.py>exam2sample.py</a>, <a href=exam2sample2.py>exam2sample2.py</a>.
+
+<hr>
+
+

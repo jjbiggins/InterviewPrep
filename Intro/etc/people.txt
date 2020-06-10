@@ -1,0 +1,4 @@
+Mario 1983 red 100 Tokyo Japan
+Luigi 1984 green 90 Yokohama Japan
+Banjo 2000 yellow 50 Twycross England
+Kazooie 2000 red 30 Twycross England

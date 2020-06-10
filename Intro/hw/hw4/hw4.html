@@ -1,0 +1,93 @@
+
+</HEAD>
+<BODY>
+
+<b> Homework 4</b><BR> 
+
+CS1210 Computer Science 1<BR> 
+Due Wednesday, February 22, by 9:00am<br>
+10 points
+<br>
+<br>
+
+<p>
+   <b>1.</b> Download and follow the instructions in <a href=hw4q1start.py>hw4q1start.py</a> 
+to complete an interactive program that prints information about
+"neighbor" words in a file of words.
+<br><br>
+<em>Do not</em> add any additional functions to
+   the file. <em>Do not</em> change the names of any functions in the file.
+<br><br>
+   <em>Do</em> "clean up" the file as you complete the work, eliminating the
+   instruction comments.  In the end the file should have only comments that make
+   sense for a finished program.
+<br><br>
+   Sample word files:
+   <ul>
+   <li> <a href=wordsTest.txt>wordsTest.txt</a> (contains only 7 words. Test with this first!)
+     <li> <a href=words5000.txt>words5000.txt</a> (contains the 5000 most commonly used English words
+						according to <a href="http://www.wordfrequency.info/">http://www.wordfrequency.info/</a>
+						<li> <a href=words5.txt>words5.txt</a> (contains 2415 five-letter words)
+   </ul>
+<br>   
+<b>2</b>.  Write a recursive function makeChange(amount, coinVal1, coinVal2, coinVal3) that determines
+whether or not change for amount (where amount is an integer), can be made using
+coins (any number of them) of the three given integer values.  If the answer is yes, the function should return a list of a coin values totalling amount.  Otherwise, return False.
+<br><br>
+For example:
+<pre>
+>>> makeChange(64, 5, 11, 13)
+[13, 11, 5, 5, 5, 5, 5, 5, 5, 5]
+>>> makeChange(7, 3, 5, 12)
+False
+</pre>
+
+No loops are needed nor allowed. Use only if statements, recursion, and simple math operations.
+
+<br><br>
+
+<b>3.</b> Write a recursive function areSimilar(item1, item2) that returns True or False depending
+on whether or not the two given input items are similar according to the following definition.
+<br><br>
+Two items are similar if: <ol>
+<li>they are the same type, and
+<li> <em>if</em> they are lists, they are of the same length and each pair of corresponding
+list items (i.e. items with the same index) is similar. 
+</ol>
+For example,
+<pre>
+>>> print(areSimilar(True, False))                   items are same type and are not lists
+True
+>>> print(areSimilar(1, 'a'))                        items are different types
+False
+>>> print(areSimilar([],[]))                      
+True						
+>>> print(areSimilar([],[3]))                        list lengths differ
+False
+>>> print(areSimilar([3.0],[3]))                     lists of same length but index 0 items are not similar
+False
+>>> print(areSimilar([5],[3]))                       lists of same length and corresponding lists items are similar
+True
+>>> print(areSimilar([1,2,['a','b']],[3,4, [1,2,3]]))      items at index 2 are not similar
+False
+>>> print(areSimilar([1,2,[False, 'b']],[3, 4, [True, 'hello']]))
+True
+>>> print(areSimilar([[[[],[2],[],['hi', [0]]]]], [[[[],[-2],[],['bye', [1]]]]]))
+True
+>>> print(areSimilar([[[[],[2],[],['hi', [0]]]]], [[[[],[-2],[],['bye', 0]]]]))
+False
+</pre>
+
+<b>4.</b> Write functions testQ2() and testQ3() that test your Q2 and Q3 functions
+on a variety of input values.
+
+<br><br>
+
+<hr>
+   Submit to ICON exactly two Python files, one for Q1, and one containing
+						   the answers for the Q2, Q3, and Q4.
+						   The files must not contain any
+   code that is not part of a function definition.
+
+</BODY>
+
