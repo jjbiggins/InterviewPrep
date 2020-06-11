@@ -1,7 +1,7 @@
 # Created by jjbiggins  at 5/23/20
 
 # CS1210 Spring 2017 HW2 solutions
-
+import time
 # 1
 def printRanges(high, low):
 	current = high
@@ -55,8 +55,12 @@ def leastChar(inputString):
 		currIndex = currIndex + 1
 	print ("The least char is '{}' and occurs at position {}.".format (inputString [leastIndex], leastIndex))
 
-
+def testSolPrint():
+	start_time = time.time()
+	printRanges(1000, 324)
+	print ("--- %s seconds ---" % (time.time () - start_time))
 # 4
+
 def generateSequence(startNumber, factor, offset, stopNumber):
 	currNumber = startNumber
 	count = 1
