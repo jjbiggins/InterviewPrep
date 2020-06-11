@@ -8,10 +8,10 @@ import json
 # After you set up the app, copy the four long messy strings and put them here.
 #
 
-CONSUMER_KEY = "REPLACE-WITH-YOUR-INFO"
-CONSUMER_SECRET = "REPLACE-WITH-YOUR-INFO"
-ACCESS_KEY = "REPLACE-WITH-YOUR-INFO"
-ACCESS_SECRET = "REPLACE-WITH-YOUR-INFO"
+CONSUMER_KEY = "quI4EXqGt0qvBAuDl4q0ripBm"
+CONSUMER_SECRET = "krTlB3yad0h43cLd4NoRAoNkFV7zmiim6TKCgp8DNElMUNSuKy"
+ACCESS_KEY = "419716095-fxSL9wPlcwcsHij2z1FG4j3bml9b9vlNSobbJACY"
+ACCESS_SECRET = "fOfl8gbBKF8MmSFLumHXDHMmRWQ3pLDkfnRkTMHgWRM6e"
 
 # Call this function after starting Python.  It creates a Twitter client object (in variable client)
 # that is authorized (based on your account credentials and the keys above) to talk
