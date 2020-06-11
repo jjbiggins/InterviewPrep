@@ -46,9 +46,10 @@
 # Test this function thoroughly before going on to others!!
 #
 def areNeighbors(word1, word2):
-    result = False
-    # ADD YOUR CODE HERE
-    return result
+	result = False
+	# ADD YOUR CODE HERE
+	return result
+
 
 #
 # Step 2. Finish function getNeighborList(word1, wordList)
@@ -60,9 +61,10 @@ def areNeighbors(word1, word2):
 # will return ['cat', 'ran', 'sat']
 #   
 def getNeighborList(word1, wordList):
-    result = []
-    # ADD YOUR CODE HERE
-    return result
+	result = []
+	# ADD YOUR CODE HERE
+	return result
+
 
 #
 #  Step 3. Finish function generateAndSaveAllNeighborLists(wordList):
@@ -85,79 +87,118 @@ def getNeighborList(word1, wordList):
 #   and 'dog' has no neighbors (we'll call it a 'lonely' word).
 #
 def generateAndSaveAllNeighborLists(wordList):
-    neighborData = [] 
-    # ADD YOUR CODE HERE
-    return neighborData
+	neighborData = []
+	# ADD YOUR CODE HERE
+	return neighborData
+
 
 # DO NOT MODIFY ANY OF THE CODE BELOW!
 #
 def getWordList(filename):
-    result = []
-    fileStream = open(filename, 'r')
-    for line in fileStream:
-        word = line.strip()
-        if (len(word) >= 1):
-            result.append(word)
-    return result
+	result = []
+	fileStream = open (filename, 'r')
+	for line in fileStream:
+		word = line.strip ()
+		if (len (word) >= 1):
+			result.append (word)
+	return result
+
 
 # NOTE: this code will crash until your generateAndSaveAllNeighborLists function
 # returns a non-empty list
-#
+# TODO: Download and follow the instructions in hw4q1start.py to complete an interactive program that prints information about "neighbor" words in a file of words.
+#  Do not add any additional functions to the file. Do not change the names of any functions in the file.
+#  Do "clean up" the file as you complete the work, eliminating the instruction comments. In the end the file should have only comments that make sense for a finished program.
 def wordNeighborInfo(filename):
+	wordList = getWordList (filename)
+	neighborData = generateAndSaveAllNeighborLists (wordList)
+	
+	largestNeighborInfo = None
+	lonelyWords = []
+	
+	numberOfNeighborLists = len (neighborData)
+	sumAllNeighborListLengths = 0
+	
+	for neighborInfo in neighborData:
+		word = neighborInfo [0]
+		neighborList = neighborInfo [1]
+		sumAllNeighborListLengths = sumAllNeighborListLengths + len (neighborList)
+		
+		if len (neighborList) == 0:
+			lonelyWords.append (word)
+		
+		if (largestNeighborInfo == None) or (len (neighborList) > len (largestNeighborInfo [1])):
+			largestNeighborInfo = neighborInfo
+	
+	print ("There are {} 'lonely' words:".format (len (lonelyWords)))
+	print ("The average number of neighbors is {:.2f}.".format (sumAllNeighborListLengths / numberOfNeighborLists))
+	print (
+			"\'{}' has the most neighbors - {} of them: ".format (largestNeighborInfo [0],
+			                                                      len (largestNeighborInfo [1])),
+			end = '')
+	for word in largestNeighborInfo [1] [:-1]:
+		print (word, end = ", ")
+	print (largestNeighborInfo [1] [-1])
+	print ("")
+	print ("Next, you can query about the neighbors of any word you like.")
+	print ("(hit Return/Enter when you want to quit)")
+	print ()
+	query = input ("What word do you want to know about? ")
+	while query != "":
+		neighborList = None
+		for neighborSet in neighborData:
+			word = neighborSet [0]
+			if word == query:
+				neighborList = neighborSet [1]
+				break
+		if neighborList == None:
+			print ("\'{}' is not in the word list.".format (query))
+		elif len (neighborList) == 0:
+			print ("\'{}' has no neighbors.".format (query))
+		else:
+			print ("\'{}' has the {} neighbors: ".format (query, len (neighborList)), end = '')
+			for word in neighborList [:-1]:
+				print (word, end = ", ")
+			print (neighborList [-1])
+		query = input ("What word do you want to know about? ")
+	print ('Goodbye!')
+	return
 
-    wordList = getWordList(filename)
-    neighborData = generateAndSaveAllNeighborLists(wordList) 
-    
-    largestNeighborInfo = None
-    lonelyWords = []
 
-    numberOfNeighborLists = len(neighborData)
-    sumAllNeighborListLengths = 0
-    
-    for neighborInfo in neighborData:
-        word = neighborInfo[0]
-        neighborList = neighborInfo[1]
-        sumAllNeighborListLengths  = sumAllNeighborListLengths + len(neighborList)
-        
-        if len(neighborList) == 0:
-            lonelyWords.append(word)
-            
-        if (largestNeighborInfo == None) or (len(neighborList) > len(largestNeighborInfo[1])):
-            largestNeighborInfo = neighborInfo
-
-    print("There are {} 'lonely' words:".format(len(lonelyWords)))
-    print("The average number of neighbors is {:.2f}.".format(sumAllNeighborListLengths/numberOfNeighborLists))
-    print("\'{}' has the most neighbors - {} of them: ".format(largestNeighborInfo[0], len(largestNeighborInfo[1])), end='')
-    for word in largestNeighborInfo[1][:-1]:
-        print(word, end=", ")
-    print(largestNeighborInfo[1][-1])
-    print("")
-    print("Next, you can query about the neighbors of any word you like.")
-    print("(hit Return/Enter when you want to quit)")
-    print()
-    query = input("What word do you want to know about? ")
-    while query != "":       
-        neighborList = None
-        for neighborSet in neighborData:
-            word = neighborSet[0]
-            if word == query:
-                neighborList = neighborSet[1]
-                break
-        if neighborList  == None:
-            print("\'{}' is not in the word list.".format(query))
-        elif len(neighborList) == 0:
-             print("\'{}' has no neighbors.".format(query))           
-        else:
-            print("\'{}' has the {} neighbors: ".format(query, len(neighborList)), end='')
-            for word in neighborList[:-1]:
-                print(word, end=", ")
-            print(neighborList[-1])
-        query = input("What word do you want to know about? ")
-    print('Goodbye!')
-    return
+def makeChange(amount, coinVal1, coinVal2, coinVal3):
+	coins = [coinVal1, coinVal2, coinVal3]
+	coinsSorted = sorted (coins)
+	myCoins1 = []
+	myCoins2 = []
+	myCoins3 = []
+	
+	numBiggestCoin = amount // coinsSorted [-1]
+	updatedAmount = amount - (numBiggestCoin * coinsSorted [-1])
+	numMedCoin = updatedAmount // coinsSorted [-2]
+	updatedAmount = updatedAmount - (numMedCoin * coinsSorted [-2])
+	numSmallCoin = updatedAmount // coinsSorted [0]
+	updatedAmount = updatedAmount - (numSmallCoin * coinsSorted [0])
+	
+	myCoins1.append ([coinsSorted [-1]] * numBiggestCoin)
+	myCoins2.append ([coinsSorted [1]] * numMedCoin)
+	myCoins3.append ([coinsSorted [0]] * numSmallCoin)
+	
+	myCoins = myCoins1 + myCoins2 + myCoins3
+	
+	print (myCoins)
+	
+	return -1
 
 
+def areSimilar(item1, item2):
+	if type (item1) == type (item2):
+		if type (item2) != list:
+			return True
+		elif len (item2) == len (item1):
+			return True
+		else:
+			return False
+	else:
+		return False
 
-        
-
-            
+# TODO: Write functions testQ2() and testQ3() that test your Q2 and Q3  functions on a variety of input values.

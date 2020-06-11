@@ -1,5 +1,8 @@
 # Class to represent nodes (vertices) of a graph
 #
+# TODO:  Implement a program to play the Word Ladder game by completing the functions in wordLadderStart.py.
+#  (Note: you'll also need these files: basicgraph.py, bfs.py,
+#  and queue1210.py since wordLadderStart.py imports them)
 class Node(object):
 
     # name must be a string

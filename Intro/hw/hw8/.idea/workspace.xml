@@ -2,48 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d1b2eedd-b8a4-4854-a1a3-73358a52f09f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../../DataStructures/.idea/DataStructures.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../DataStructures/Homeworks/hw1/.idea/hw1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../DataStructures/Homeworks/hw1/hw1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../DataStructures/Homeworks/hw1/out/production/hw1/.idea/hw1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../DataStructures/Homeworks/hw1/out/production/hw1/hw1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../DataStructures/Homeworks/hw2/hw2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../DataStructures/Homeworks/hw3/hw3.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../DataStructures/Homeworks/hw6/hw6.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../DataStructures/Labs/Lab3/Lab3.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../DataStructures/Labs/Lab4/Lab4.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../DataStructures/Labs/lab2/lab2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hw2/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hw2/.idea/dictionaries/jjbiggins.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hw2/.idea/hw2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hw2/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hw2/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hw2/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hw2/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hw2/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hw2/solution/hw2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hw4/.idea/hw4.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hw7/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hw7/.idea/dictionaries/jjbiggins.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hw7/.idea/hw7.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hw7/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hw7/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hw7/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hw7/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hw7/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lectures/cs1210s17lec01.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lectures/cs1210s17lec01.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/hw.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/hw.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../hw1/hw1.py" beforeDir="false" afterPath="$PROJECT_DIR$/../hw1/hw1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hw1/solution/hw1.py" beforeDir="false" afterPath="$PROJECT_DIR$/../hw1/solution/hw1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hw2/hw2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hw2/hw2.md" beforeDir="false" afterPath="$PROJECT_DIR$/../hw2/hw2.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hw2/hw2.py" beforeDir="false" afterPath="$PROJECT_DIR$/../hw2/hw2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hw3/hw3.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hw4/hw4.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hw5/hw5.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hw6/hw6.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hw7/hw7.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hw7/hw7sorts.py" beforeDir="false" afterPath="$PROJECT_DIR$/../hw7/hw7sorts.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw8.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hw9/hw9.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw4/hw4q1start.py" beforeDir="false" afterPath="$PROJECT_DIR$/../hw4/hw4q1start.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basicgraph.py" beforeDir="false" afterPath="$PROJECT_DIR$/basicgraph.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,6 +70,8 @@
       <option name="presentableId" value="Default" />
       <updated>1591819963623</updated>
       <workItem from="1591819965138" duration="34000" />
+      <workItem from="1591844473937" duration="94000" />
+      <workItem from="1591844571913" duration="6000" />
     </task>
     <servers />
   </component>
